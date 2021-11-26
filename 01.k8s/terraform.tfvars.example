@@ -1,0 +1,2 @@
+# Secrets only
+ibmcloud_api_key = ""  // nme of the API key
