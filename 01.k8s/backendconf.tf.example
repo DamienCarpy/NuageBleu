@@ -2,8 +2,7 @@ terraform {
   backend "azurerm" {
     storage_account_name = "tfnuagebleu"                                                                              #storage account name for tf state
     container_name       = "terraform"                                                                                #storage account container name, default to terraform
-    key                  = "test1.tfstate"                                                                            #filename to store the state
+    key                  = "01.k8s.test1.tfstate"                                                                            #filename to store the state
     access_key           = "" #storage access key
-  }
   }
 }
