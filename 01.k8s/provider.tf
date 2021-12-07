@@ -8,6 +8,6 @@ terraform {
 
 provider "ibm" {
   # visibility       = "private"
-  region           = "bnpp_eu"
+  region           = "eu-fr2"
   ibmcloud_api_key = var.ibmcloud_api_key
 }
